@@ -21,7 +21,6 @@ A complete, standalone system for generating React components using the Vercel v
 ### Configuration
 - `v0-system-prompts.js` - Optimized prompts for different component types
 - `backend-integration-config.js` - Backend compatibility validation
-- `.env` - Environment variables (V0 API key, Supabase config)
 - `package.json` - Dependencies and npm scripts
 
 ## ⚡ Quick Start
@@ -32,15 +31,7 @@ cd v0-api-scripts
 npm install
 ```
 
-### 2. Configure Environment
-Copy `.env.example` to `.env` and add your V0 API key:
-```env
-V0_API_KEY=your_v0_api_key_here
-```
-
-Get your API key from: https://v0.app/chat/settings/keys
-
-### 3. Generate Components
+### 2. Generate Components
 
 #### Smart Generator (Recommended)
 ```bash
@@ -169,7 +160,7 @@ To use these scripts in an existing project:
 ## 🔄 Troubleshooting
 
 ### No Files Downloaded
-- Check your V0_API_KEY in `.env`
+- Check your V0_API_KEY (ensure it's set and valid)
 - Try the enforced download mode: `npm run create-enforced`
 - Wait longer - complex components take time
 
