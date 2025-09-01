@@ -17,7 +17,7 @@ Instead of manually managing v0 API calls, prompt engineering, and file download
 ## 📦 Files Included
 
 ### Core Scripts
-- `smart-v0-generator.js` - **RECOMMENDED** - Intelligent generator with backend integration
+- `smart-v0-generator.js` - **RECOMMENDED** - Intelligent generator with seamless backend integration
 - `v0-chat-creator-enforced.js` - Enforced auto-download system  
 - `v0-chat-creator-sdk.js` - Official SDK implementation
 - `v0-chat-creator.js` - Basic v0 integration
