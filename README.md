@@ -1,6 +1,10 @@
-# V0 API Scripts - Standalone Component Generator
+# V0 API Scripts - Enhanced SDK Wrapper 🔧
 
-A wrapper for generating React components using the Vercel v0 API with intelligent backend integration and enforced auto-download capabilities.
+**A powerful wrapper around Vercel's v0 API that makes component generation and backend integration effortless.**
+
+This enhanced SDK wrapper simplifies the v0 API workflow by adding intelligent features on top of the official v0 SDK. It automatically handles component type detection, optimizes prompts for better results, enforces reliable downloads, and ensures seamless integration with your existing backend systems.
+
+Instead of manually managing v0 API calls, prompt engineering, and file downloads, this wrapper provides a streamlined interface that handles all the complexity behind the scenes. Perfect for developers who want the power of v0 without the integration hassles.
 
 ## 🚀 Features
 
@@ -13,7 +17,7 @@ A wrapper for generating React components using the Vercel v0 API with intellige
 ## 📦 Files Included
 
 ### Core Scripts
-- `smart-v0-generator.js` - **RECOMMENDED** - Intelligent generator with backend integration
+- `smart-v0-generator.js` - **RECOMMENDED** - Intelligent generator with seamless backend integration
 - `v0-chat-creator-enforced.js` - Enforced auto-download system  
 - `v0-chat-creator-sdk.js` - Official SDK implementation
 - `v0-chat-creator.js` - Basic v0 integration
