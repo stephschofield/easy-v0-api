@@ -149,6 +149,15 @@ Choose from various AI models based on your needs:
 - `v0-1.5-lg` - Large, most capable
 - `v0-gpt-5` - Latest GPT model
 
+**Example Usage:**
+```bash
+# Use v0 1.5 md model (default)
+npm run generate -- "Create a dashboard" -m "v0-1.5-md"
+
+# Use Claude Sonnet 4 model
+npm run generate -- "Create a form component" -m "claude-sonnet-4-latest"
+```
+
 For a comprehensive list of all available models and providers, including detailed information about their capabilities and performance characteristics, refer to the [AI SDK documentation on providers and models](http://ai-sdk.dev/docs/foundations/providers-and-models).
 
 ### Privacy Levels
