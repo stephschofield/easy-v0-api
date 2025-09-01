@@ -58,7 +58,10 @@ V0_API_KEY=your_v0_api_key_here
 
 Get your API key from: https://v0.app/chat/settings/keys
 
-### 3. Generate Components
+### 3. Choose Your Model
+You can select which AI models you'd like to use for component generation. The system supports various models with different capabilities and performance characteristics. For a complete list of available models and providers, see the [AI SDK documentation](http://ai-sdk.dev/docs/foundations/providers-and-models).
+
+### 4. Generate Components
 
 #### Smart Generator (Recommended)
 ```bash
@@ -140,10 +143,13 @@ Automatically ensures:
 ## 🔧 Configuration Options
 
 ### Model Selection
+Choose from various AI models based on your needs:
 - `v0-1.5-sm` - Small, fast
 - `v0-1.5-md` - Medium, balanced (default)
 - `v0-1.5-lg` - Large, most capable
 - `v0-gpt-5` - Latest GPT model
+
+For a comprehensive list of all available models and providers, including detailed information about their capabilities and performance characteristics, refer to the [AI SDK documentation on providers and models](http://ai-sdk.dev/docs/foundations/providers-and-models).
 
 ### Privacy Levels
 - `private` - Only you can see (default)
