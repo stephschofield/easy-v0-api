@@ -1,0 +1,51 @@
+{
+  "name": "v0-api-scripts",
+  "version": "1.0.0",
+  "description": "Standalone v0 API integration scripts for component generation",
+  "main": "smart-v0-generator.js",
+  "scripts": {
+    "generate": "node smart-v0-generator.js",
+    "create-enforced": "node v0-chat-creator-enforced.js",
+    "create-sdk": "node v0-chat-creator-sdk.js",
+    "create": "node v0-chat-creator.js",
+    "help": "node smart-v0-generator.js --help",
+    "help-enforced": "node v0-chat-creator-enforced.js --help",
+    "help-sdk": "node v0-chat-creator-sdk.js --help",
+    "example": "node smart-v0-generator.js \"Create a modern button component\"",
+    "example-enforced": "node v0-chat-creator-enforced.js \"Create a dashboard with enforced download\"",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "v0",
+    "api",
+    "component-generation",
+    "ai",
+    "vercel",
+    "react",
+    "typescript"
+  ],
+  "author": "Query Engine Studio",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.0",
+    "v0-sdk": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Query-Engine-Studio-v2"
+  },
+  "files": [
+    "smart-v0-generator.js",
+    "v0-chat-creator-enforced.js",
+    "v0-chat-creator-sdk.js",
+    "v0-chat-creator.js",
+    "v0-system-prompts.js",
+    "backend-integration-config.js",
+    ".env.example",
+    "README.md"
+  ]
+}
