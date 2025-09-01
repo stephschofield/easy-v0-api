@@ -1,6 +1,6 @@
 # V0 API Scripts - Standalone Component Generator
 
-A complete, standalone system for generating React components using the Vercel v0 API with intelligent backend integration and enforced auto-download capabilities.
+A wrapper for generating React components using the Vercel v0 API with intelligent backend integration and enforced auto-download capabilities.
 
 ## 🚀 Features
 
