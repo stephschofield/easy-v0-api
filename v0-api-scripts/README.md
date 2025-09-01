@@ -31,7 +31,15 @@ cd v0-api-scripts
 npm install
 ```
 
-### 2. Generate Components
+### 2. Configure Environment
+Add your V0 API key to your environment file:
+```env
+V0_API_KEY=your_v0_api_key_here
+```
+
+Get your API key from: https://v0.app/chat/settings/keys
+
+### 3. Generate Components
 
 #### Smart Generator (Recommended)
 ```bash
