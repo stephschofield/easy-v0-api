@@ -141,14 +141,6 @@ To use these scripts in an existing project:
 2. Update the output directory in commands: `-o "./src/components"`
 3. Ensure your project has the required dependencies
 
-## 🎛 Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `V0_API_KEY` | Your v0 API key | ✅ |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL | Optional |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key | Optional |
-
 ## 🚀 Generation Workflow
 
 1. **Prompt Analysis** - Smart detection of component type
