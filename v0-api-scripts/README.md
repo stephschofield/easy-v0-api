@@ -23,6 +23,21 @@ A complete, standalone system for generating React components using the Vercel v
 - `backend-integration-config.js` - Backend compatibility validation
 - `package.json` - Dependencies and npm scripts
 
+## 📋 Required Dependencies
+
+### System Requirements
+- **Node.js**: Version 14.0.0 or higher
+- **npm**: Latest version recommended
+
+### NPM Packages
+The following packages will be automatically installed:
+
+- **`dotenv`** (^16.0.0) - Environment variable management
+- **`node-fetch`** (^3.3.0) - HTTP request handling for API calls  
+- **`v0-sdk`** (^0.8.0) - Official Vercel v0 SDK for component generation
+
+All dependencies are production-ready and actively maintained. The system is designed to work with minimal external dependencies for maximum reliability.
+
 ## ⚡ Quick Start
 
 ### 1. Install Dependencies
